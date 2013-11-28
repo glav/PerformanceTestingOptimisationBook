@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheDependencyExample", "CacheDependencyExample\CacheDependencyExample.csproj", "{C82F5FFE-4B4A-45A0-94A9-B0047C26EFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{4A95ABDC-EFC4-401F-AB45-C090077D4687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82F5FFE-4B4A-45A0-94A9-B0047C26EFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82F5FFE-4B4A-45A0-94A9-B0047C26EFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82F5FFE-4B4A-45A0-94A9-B0047C26EFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82F5FFE-4B4A-45A0-94A9-B0047C26EFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A95ABDC-EFC4-401F-AB45-C090077D4687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A95ABDC-EFC4-401F-AB45-C090077D4687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A95ABDC-EFC4-401F-AB45-C090077D4687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A95ABDC-EFC4-401F-AB45-C090077D4687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

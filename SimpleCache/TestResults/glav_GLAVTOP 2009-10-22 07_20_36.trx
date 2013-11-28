@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9eca8aed-9f87-4970-9500-f94ede52ee6d" name="glav@GLAVTOP 2009-10-22 07:20:36" runUser="Glavtop\glav" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="5dee145e-1d35-40d2-9f1a-1e4880260b50">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Data\PerformanceBook\Source Code\Chapter 9\SimpleCache\TestResults\glav_GLAVTOP 2009-10-22 07_20_36">
+      <DeploymentItem filename="C:\Data\PerformanceBook\Source Code\Chapter 9\SimpleCache\SimpleCache\bin\Debug\SimpleCache.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-10-22T07:20:36.9742498+11:00" queuing="2009-10-22T07:20:38.1373164+11:00" start="2009-10-22T07:20:38.3683296+11:00" finish="2009-10-22T07:20:38.9513629+11:00" />
+  <TestDefinitions>
+    <UnitTest name="TestPostcodeNonExisting" storage="c:\data\performancebook\source code\chapter 9\simplecache\simplecachetests\bin\debug\simplecachetests.dll" id="fc00e165-a88d-21c6-de35-b36a6e7ba4bd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="72b13250-39c5-47c3-83e2-9ccf6f3fe4c3" />
+      <TestMethod codeBase="C:\Data\PerformanceBook\Source Code\Chapter 9\SimpleCache\SimpleCacheTests\bin\Debug\SimpleCacheTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleCacheTests.CacheTests, SimpleCacheTests" name="TestPostcodeNonExisting" />
+    </UnitTest>
+    <UnitTest name="TestExistingPostcode" storage="c:\data\performancebook\source code\chapter 9\simplecache\simplecachetests\bin\debug\simplecachetests.dll" id="cc4c00fd-3367-cc65-c19b-b9c5b9dcfc2c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b4b8fb7e-538a-4193-bb7c-2c8907c44ee8" />
+      <TestMethod codeBase="C:\Data\PerformanceBook\Source Code\Chapter 9\SimpleCache\SimpleCacheTests\bin\Debug\SimpleCacheTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleCacheTests.CacheTests, SimpleCacheTests" name="TestExistingPostcode" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cc4c00fd-3367-cc65-c19b-b9c5b9dcfc2c" executionId="b4b8fb7e-538a-4193-bb7c-2c8907c44ee8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc00e165-a88d-21c6-de35-b36a6e7ba4bd" executionId="72b13250-39c5-47c3-83e2-9ccf6f3fe4c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b4b8fb7e-538a-4193-bb7c-2c8907c44ee8" testId="cc4c00fd-3367-cc65-c19b-b9c5b9dcfc2c" testName="TestExistingPostcode" computerName="GLAVTOP" duration="00:00:00.0144785" startTime="2009-10-22T07:20:38.4513343+11:00" endTime="2009-10-22T07:20:38.8873593+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="72b13250-39c5-47c3-83e2-9ccf6f3fe4c3" testId="fc00e165-a88d-21c6-de35-b36a6e7ba4bd" testName="TestPostcodeNonExisting" computerName="GLAVTOP" duration="00:00:00.0002157" startTime="2009-10-22T07:20:38.8893594+11:00" endTime="2009-10-22T07:20:38.9053603+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
